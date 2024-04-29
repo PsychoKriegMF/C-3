@@ -26,11 +26,23 @@ namespace C_3
             var Moscow = new Moscow(13149803);
             var Berlin = new Berlin(33611222);
             var Paris = new Paris(2102650);
+            var Ekaterinburg = new Ekaterinburg(4106235);
+            var Munhen = new Munhen(1234567);
+            var Leon = new Leon(1326546);
+
+
 
             Console.WriteLine("Сравнение населения 3 столиц:");
             Console.WriteLine($"Москва, Россия: {Moscow.Population} человек");
             Console.WriteLine($"Берлин, Германия: {Berlin.Population} человек");
-            Console.WriteLine($"Париж, Франция: {Paris.Population} человек");
+            Console.WriteLine($"Екатеринбург, Россия: {Ekaterinburg.Population} человек");
+            Console.WriteLine($"Леон, Франция: {Leon.Population} человек");
+            Console.WriteLine($"Мюнхен, Германия: {Munhen.Population} человек");
+
+            Console.WriteLine($"Население Страны Россия: {Moscow.Population + Ekaterinburg.Population}");
+            Console.WriteLine($"Население Страны Германия: {Berlin.Population + Munhen.Population}");
+            Console.WriteLine($"Население Страны Франция: {Leon.Population + Paris.Population}");
+
 
 
 

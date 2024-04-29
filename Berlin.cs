@@ -15,4 +15,15 @@ namespace Germany
             Population = population;
         }
     }
+
+
+    public class Munhen
+    {
+        public int Population { get; set; }
+
+        public Munhen(int Population)
+        {
+            this.Population = Population;
+        }
+    }
 }

@@ -15,4 +15,14 @@ namespace Russia
             this.Population = Population;
         }
     }
+
+    public class Ekaterinburg
+    {
+        public int Population { get; set; }
+
+        public Ekaterinburg(int Population)
+        {
+            this.Population = Population;
+        }
+    }
 }

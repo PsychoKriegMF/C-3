@@ -15,4 +15,14 @@ namespace France
             this.Population = population;
         }
     }
+
+    internal class Leon
+    {
+        public int Population { get; set; }
+
+        public Leon(int population)
+        {
+            this.Population = population;
+        }
+    }
 }
